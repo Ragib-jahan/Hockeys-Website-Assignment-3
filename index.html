@@ -41,6 +41,13 @@
         .manrope {
             font-family: 'Manrope', sans-serif;
         }
+
+        .gradient {
+            background: rgba(19, 19, 24, 0.50);
+            display: inline-block;
+            z-index: ;
+
+        }
     </style>
 
 </head>
@@ -118,8 +125,17 @@
                         <a href="#slide3" class="btn btn-circle">❮</a>
                         <a href="#slide1" class="btn btn-circle">❯</a>
                     </div>
+
                 </div>
             </div>
+
+        </div>
+        <div class="bg-[#131318] lg:w-[502px] p-8 rounded-2xl lg:mx-auto mx-5 lg:-translate-y-60 lg:translate-x-96">
+            <h2 class="lg:text-2xl text-xl text-white font-extrabold">Meet all the heroes from the field</h2>
+            <p class="text-[#FFFFFF99] lg:text-xl text-sm font-medium">
+                In the context of sports, "heroes from the field" could refer to celebrated athletes who have
+                demonstrated exceptional skills.
+            </p>
 
         </div>
 
@@ -254,7 +270,8 @@
             </div>
             <div class="grid lg:grid-cols-2 grid-cols-1 gap-6 lg:mx-0 mx-5 lg:mt-20 mt-14">
                 <div class="relative">
-                    <img class="lg:w-full lg:h-full h-[244px]" src="Images/2.png" alt="images">
+                    <img class="lg:w-full lg:h-full block relative h-[244px]  gradient z-[-1] " src="Images/2.png"
+                        alt="images">
                     <div class="absolute lg:top-28 top-7 lg:pl-10 pl-5 lg:space-y-6 space-y-3">
                         <h2 class="text-white lg:text-2xl text-xl font-extrabold">Junior Program</h2>
                         <p class="text-white lg:text-xl text-sm font-medium lg:w-[495px]">
@@ -665,7 +682,7 @@
                             <h2 class="text-[#131318] text-xl font-bold">Message</h2>
 
                             <input type="text" placeholder="Write your message"
-                                class="input outline-[0px] border-none bg-[#0D0D1808] max-w-full w-[100%] h-[445px]" />
+                                class="input outline-[0px] border-none bg-[#0D0D1808] max-w-full w-[100%] pb-[430px] pt-4" />
                         </div>
 
                         <button class="btn bg-[#FF4240] text-white  w-[100%] lg:col-span-2 ">Send Message</button>
@@ -676,16 +693,16 @@
             </div>
 
             <div class="space-y-6 bg-[#0D0D1808]">
-                    <h1 class="text-[#131318] text-center font-extrabold lg:text-2xl text-xl pt-8">
-                        Social Media
-                    </h1>
-                    <div class="text-center space-x-7 pb-8">
-                        <a href=""><i class="fa-brands fa-twitter" style="color: #131318;"></i></a>
-                        <a href=""><i class="fa-brands fa-facebook" style="color: #131318;"></i></a>
-                        <a href=""><i class="fa-brands fa-instagram" style="color: #131318;"></i></a>
-                        <a href=""><i class="fa-brands fa-github" style="color: #131318;"></i></a>
+                <h1 class="text-[#131318] text-center font-extrabold lg:text-2xl text-xl pt-8">
+                    Social Media
+                </h1>
+                <div class="text-center space-x-7 pb-8">
+                    <a href=""><i class="fa-brands fa-twitter" style="color: #131318;"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook" style="color: #131318;"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram" style="color: #131318;"></i></a>
+                    <a href=""><i class="fa-brands fa-github" style="color: #131318;"></i></a>
 
-                    </div>
+                </div>
 
             </div>
 
@@ -694,7 +711,58 @@
 
 
     </main>
+    <footer class="bg-[#131318] mt-20">
 
+        <div class=" lg:flex container py-10 px-5
+        lg:px-0">
+            <div class="mx-auto ">
+                <h1 class="text-white text-3xl font-extrabold ">Get In Touch</h1>
+                <p class="lg:w-[346px] font-medium text-[#FFFFFF99] my-5"> We'd love to
+                    We'd love to hear from you! Getting in touch with us is easy, and we welcome your inquiries,
+                    feedback, and any other communication.</p>
+                <a class="font-medium text-[#FFFFFF99]" href="mailto:hockeys@support.com"><i
+                        class="fa-regular fa-envelope pr-2" style="color: #ff4240;"></i>hockeys@support.com</a>
+                <br>
+                <a class="font-medium text-[#FFFFFF99]" href="tel:(+62) 123-321-543"><i class="fa-solid fa-phone pr-2"
+                        style="color: #ff4240;"></i>(+62) 123-321-543</a>
+            </div>
+            <div class="grid lg:grid-cols-4 grid-cols-3 justify-items-end">
+                <div class="mt-10 lg:mt-0 lg:text-left text-center lg:mr-16 ">
+
+                    <header class="text-white font-boldtext-xl mb-5">Company</header>
+                    <div class="flex flex-col">
+                        <a class="font-medium text-[#FFFFFF99]">About us</a>
+                        <a class="font-medium text-[#FFFFFF99]">Leadership</a>
+                        <a class="font-medium text-[#FFFFFF99]">Careers</a>
+                        <a class="font-medium text-[#FFFFFF99]">News & Article</a>
+                        <a class="font-medium text-[#FFFFFF99]">Legal Notice</a>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-1 col-span-2 lg:mr-16 mt-10 lg:mt-0 lg:text-left text-center ">
+                    <header class="text-white font-boldtext-xl mb-5">Support</header>
+                    <div class="flex flex-col">
+                        <a class="font-medium text-[#FFFFFF99]">Help Center</a>
+                        <a class="font-medium text-[#FFFFFF99]">FAQ</a>
+                        <a class="font-medium text-[#FFFFFF99]">Ticket Support</a>
+                        <a class="font-medium text-[#FFFFFF99]">Contact Us</a>
+                    </div>
+                </div>
+
+                <div class="mt-10 lg:mt-0 lg:col-span-1 col-span-2 text-center lg:text-left ">
+                    <header class="text-white font-boldtext-xl l mb-5">Services</header>
+                    <div class="flex flex-col">
+                        <a class="font-medium text-[#FFFFFF99]">Academy</a>
+                        <a class="font-medium text-[#FFFFFF99]">Group Lesson</a>
+                        <a class="font-medium text-[#FFFFFF99]">Group Lesson</a>
+                        <a class="font-medium text-[#FFFFFF99]">Private Lesson</a>
+                        <a class="font-medium text-[#FFFFFF99]">Hockeys for kids</a>
+                        <a class="font-medium text-[#FFFFFF99]">Hockeys for Adult</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
